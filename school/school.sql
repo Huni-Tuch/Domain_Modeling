@@ -35,3 +35,40 @@ CREATE TABLE sections (
   course_id TEXT,
   teacher_id TEXT
 );
+
+-- enrollments table
+
+CREATE TABLE enrollments (
+  id INTEGER PRIMARY KEY AUTOINCREMENT
+
+
+)
+;
+
+-- Now the data values
+
+INSERT INTO students (
+  first_name,
+  last_name, 
+  email, 
+  phone_number
+) Values 
+  (
+    "Jane",
+    "Doe",
+    "jane@example.com",
+    "1111"
+  ),
+  (
+    "Jenny",
+    "Smith",
+    "jenny@example.com",
+    "2222"
+  ),
+  (
+    "John",
+    "Johnsons",
+    "john@example.com",
+    "3333"
+  )
+;
